@@ -11,13 +11,13 @@ def write(content, filename):
         json.dump(content, file)
 #    print("Write Successful")
 
-# write(accounts, r'C:\Users\HP\OneDrive\Desktop\ISAAC\bank-app\users.json')
-# write(accounts, r'C:\Users\HP\OneDrive\Desktop\ISAAC\bank-app\accounts.json')
+# write(users, r'bank-app\users.json')
+# write(accounts, r'bank-app\accounts.json')
 
 def read(filename):
     with open (filename, 'r') as file:
         data = json.load(file)
         return (data)
 
-# c = read(r'C:\Users\HP\OneDrive\Desktop\ISAAC\bank-app\users.json')
+# c = read(r'bank-app\users.json')
 # print(c)

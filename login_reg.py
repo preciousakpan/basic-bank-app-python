@@ -2,8 +2,8 @@ from read_write import read
 from add import add_user, add_user_account
 
 
-user = read(r'C:\Users\HP\OneDrive\Desktop\ISAAC\bank-app\users.json')
-account = read(r'C:\Users\HP\OneDrive\Desktop\ISAAC\bank-app\accounts.json')
+user = read(r'bank-app\users.json')
+account = read(r'bank-app\accounts.json')
 
 
 def login(email):
